@@ -1,24 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: "Century Gothic", Arial, Verdana;
 }
 
-
-
-a{
+a {
   text-decoration: none;
 }
 
-
-.top-line{
+.top-line {
   border: 2.5px solid rgb(0, 179, 255);
 }
 
-
 /* Header styling started here */
 
-.header-contact{
+.header-contact {
   padding: 10px 100px;
   display: flex;
   justify-content: space-between;
@@ -26,12 +22,12 @@ a{
   border-bottom: 1px solid #e6e9ee;
 }
 
-.header-contact .left-side{
+.header-contact .left-side {
   display: flex;
   gap: 1rem;
 }
 
-.left-side a{
+.left-side a {
   color: #333333;
   font-size: 12px;
   display: flex;
@@ -40,12 +36,12 @@ a{
   gap: 0.5rem;
 }
 
-.left-side a i{
-  color: #0066FF;
+.left-side a i {
+  color: #0066ff;
   font-size: 14px;
 }
 
-.header-contact .right-side{
+.header-contact .right-side {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,15 +61,15 @@ a{
   border-radius: 4px;
 }
 
-.right-side a i{
-  color: #0066FF;
+.right-side a i {
+  color: #0066ff;
   font-size: 14px;
 }
 
 /* Header styling ends here*/
 
 /* Navbar styling start */
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,48 +78,47 @@ nav{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-nav .logo{
+nav .logo {
   width: 100px;
   height: 100px;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
-  
 }
 
-nav ul li a{
+nav ul li a {
   color: #333333;
 }
 
 /* Navbar styling ends */
 
 /* Slider start */
-.slider{
+.slider {
   height: 60vh;
-  background-color: #0066FF;
+  background-color: #0066ff;
 }
 
 /* Slider end */
 
 /* Event Post on Home start */
-.events-post{
+.events-post {
   padding: 20px 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #f6f7fb;
 }
-.events-post h4{
+.events-post h4 {
   font-size: 24px;
   margin-bottom: 5px;
   font-weight: 400;
   color: #000;
 }
 
-.events-post a{
+.events-post a {
   padding: 12px 22px;
   font-size: 13px;
   color: #fff;
@@ -132,9 +127,8 @@ nav ul li a{
 }
 /* Event Post on Home start */
 
-
 /* Event-List  start*/
-.each-events{
+.each-events {
   padding: 50px 100px;
   display: flex;
   justify-content: space-between;
@@ -142,41 +136,41 @@ nav ul li a{
   flex-wrap: wrap;
 }
 
-.feature-block{
+.feature-block {
   flex-basis: 350px;
   flex-shrink: 1;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.feature-block p{
+.feature-block p {
   color: #000000;
 }
-.feature-block-title{
+.feature-block-title {
   display: flex;
   gap: 0.5rem;
 }
 
-.feature-block-title .title{
+.feature-block-title .title {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 0.5rem;
 }
 
-.feature-block-title .title h4{
+.feature-block-title .title h4 {
   font-size: 16px;
   font-weight: 200;
   color: #404040;
 }
 
-.feature-block-title .title h6{
-  color: #169FE6;
+.feature-block-title .title h6 {
+  color: #169fe6;
   font-weight: 400;
   font-size: 13px;
 }
 
-.feature-block-icon{
+.feature-block-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,7 +247,7 @@ nav ul li a{
 }
 
 .portfolio-item-title a {
-  color: #169FE6;
+  color: #169fe6;
   font-family: 400;
   font-size: 16px;
 }
@@ -265,23 +259,22 @@ nav ul li a{
 
 /* Services Card end */
 
-
 /* Home-Contact start */
-.home-contact{
+.home-contact {
   padding: 20px 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #f6f7fb;
 }
-.home-contact h4{
+.home-contact h4 {
   font-size: 16px;
   margin-bottom: 5px;
   font-weight: 400;
   color: #000;
 }
 
-.home-contact a{
+.home-contact a {
   padding: 12px 22px;
   font-size: 13px;
   color: #fff;
@@ -289,3 +282,188 @@ nav ul li a{
   background: #89929d;
 }
 /* Home-Contact start */
+
+/* About page */
+#breadcrumb {
+  background: #f6f7fb;
+  padding: 5px 0px 2px 0px;
+  margin-bottom: 40px;
+}
+
+.container1 {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  width: 80%;
+  
+}
+
+.one-half {
+  flex: 1; 
+  margin-left: 100px;
+}
+
+
+#breadcrumbs ul {
+  display: flex; 
+  gap: 0px; 
+  background: none; 
+  border: none; 
+  
+}
+
+#breadcrumbs ul li {
+  margin: 0 5px; 
+  color: gray; 
+  font-size: 0.875rem; 
+  background: none; 
+  border: none; /
+}
+
+#breadcrumbs ul li a {
+  text-decoration: none; 
+  color: gray; 
+  font-size: 0.875rem; 
+}
+
+
+#breadcrumbs ul li a:hover {
+  text-decoration: underline; 
+}
+
+/* Style "About Us" heading */
+.one-half h4 {
+  color: #656d78;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container2 {
+  display: flex;
+  gap: 40px; 
+  margin-top: 60px; 
+  font-size: small;
+ line-height: 1.25rem;
+ margin-bottom: 50px;
+}
+
+.left-section
+{
+  flex: 1;
+  margin-left: 100px;
+ 
+}
+
+.right-section {
+  flex: 1;
+  margin-right:100px; 
+}
+
+.skills-section {
+  margin-top: 40px; 
+}
+
+.skill-list > li {
+  margin-bottom: 10px; 
+}
+
+.simple-list, .bar_graph {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.values-list {
+  list-style-type: none; 
+  padding: 0;
+  margin-left: -20px;
+}
+
+.values-list > li {
+  margin-bottom: 10px; 
+}
+
+.values-list, .approach-list li ul {
+  list-style-type: none; 
+  padding-left: 20px; 
+}
+
+.values-list ul li {
+  margin-bottom: 10px; 
+}
+
+.approach-list, .skill-list {
+  list-style-type: none; 
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+
+/* Training */
+/* Coming Soon Container */
+.training-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid darkblue; 
+  border-radius: 8px; 
+  padding: 35px;
+  margin: 20px auto; 
+  max-width: 450px; 
+  text-align: center;
+}
+
+.training-intro::before {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Portfolio Container */
+.container3 {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center; 
+  margin-bottom: 50px;
+}
+
+/* Portfolio Items */
+.three-columns {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 50px; 
+  width: 70%;
+}
+
+.isotope-item {
+  border-radius: 5px; 
+  overflow: hidden; 
+  height: 240px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-wrapp {
+  position: relative;
+}
+
+.portfolio-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-item-title {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.portfolio-item-title p {
+  margin: 0;
+  font-size: 13px;
+  color: darkblue; 
+}
