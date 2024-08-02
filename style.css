@@ -137,6 +137,10 @@ nav ul li a {
 }
 
 @media(max-width:750px){
+  nav .logo{
+    width: 50px;
+    height: 50px;
+  }
   nav ul{
     position: absolute;
     flex-direction: column;
@@ -150,6 +154,16 @@ nav ul li a {
     gap: 0;
     height: 0;
     overflow: hidden;
+  }
+
+  nav ul li .active{
+    background-color: transparent;
+    color: #169fe6;
+  }
+
+  nav ul li a:hover{
+    background-color: transparent;
+    color: #cfcfd0;
   }
 
   nav ul.show {
@@ -637,3 +651,88 @@ nav ul li a {
 }
 
 
+
+footer{
+  padding: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #333942;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+footer h4{
+  font-size: 13px;
+  color: #FFF;
+  font-family: "Roboto", Arial, Verdana;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+footer p{
+  color: #CCCCCC;
+  margin-bottom: 10px;
+}
+
+.one-third{
+  flex: 1;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+footer ul li{
+  padding: 12px 0;
+  border-bottom: 1px solid #434a54;
+}
+
+footer a{
+  color: #CCCCCC;
+}
+
+@media(max-width: 920px){
+  footer{
+    padding: 30px 20px;
+  }
+}
+
+
+.copyrights{
+  padding: 20px 100px;
+  background: #292f38;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #CCCCCC;
+}
+
+.copyrights ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.copyrights a{
+  color: #CCCCCC;
+}
+
+@media(max-width: 920px){
+  .copyrights{
+    padding: 20px;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .copyrights p{
+    text-align: center;
+  }
+}
