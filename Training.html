@@ -37,35 +37,29 @@
         <img src="./image/logo.jpg" alt="logo" class="logo" />
         <ul>
           <!-- Update the links -->
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Our Services</a></li>
-          <li><a href="Training.html">Training</a></li>
+          <li><a href="Training.html" class="active">Training</a></li>
           <li><a href="events.html">Events</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
+        <button class="menu"><i class="fas fa-bars"></i></button>
       </nav>
 
       <!-- About starts here -->
-      <div id="breadcrumb">
+      <section class="breadcrumb">
         <!-- breadcrumb starts-->
-        <div class="container1">
-          <div class="one-half">
             <h4>Training</h4>
-          </div>
-          <div class="one-half">
-            <nav id="breadcrumbs">
               <!--breadcrumb nav starts-->
               <ul>
                 <li>You are here:</li>
                 <li><a href="index.html" class="breadcrumb-home">Home</a></li>
+                <li> > </li>
                 <li>Training</li>
               </ul>
-            </nav>
             <!--breadcrumb nav ends -->
-          </div>
-        </div>
-      </div>
+            </section>
 
       <!-- Training page -->
       <!-- A container with the caption coming soon  -->
@@ -74,74 +68,94 @@
           Coming Soon... <i class="fas fa-tools" style="color: darkblue"></i>
         </h2>
       </div>
-      <div class="container3">
-        <ul id="portfolio-container" class="three-columns">
-          <li class="isotope-item" data-categories="design print">
-            <div class="item-wrapp">
-              <div class="portfolio-item">
-                <img src="images/linux-training.jpg" alt="" />
-              </div>
-              <div class="portfolio-item-title">
-                <p>Linux Training</p>
-              </div>
-            </div>
-          </li>
-          <li class="isotope-item" data-categories="design print">
-            <div class="item-wrapp">
-              <div class="portfolio-item">
-                <img src="images/ethical-training.jpg" alt="" />
-              </div>
-              <div class="portfolio-item-title">
-                <p>Ethical Training</p>
-              </div>
-            </div>
-          </li>
-          <li class="isotope-item">
-            <div class="item-wrapp">
-              <div class="portfolio-item">
-                <img src="images/advanced-hacking.jpg" alt="" />
-              </div>
-              <div class="portfolio-item-title">
-                <p>Advanced Hacking</p>
-              </div>
-            </div>
-          </li>
+      <section class="training-cards">
+        <div class="training-card">
+          <div class="item-wrapp">
+            <div class="portfolio-item">
+              <a href="about.html" class="item-permalink"
+                ><i class="fas fa-link"></i></a>
 
-          <li class="isotope-item" data-categories="design illustration">
-            <div class="item-wrapp">
-              <div class="portfolio-item">
-                <img src="images/computer-forensic.jpg" alt="" />
-              </div>
-              <div class="portfolio-item-title">
-                <p>Computer Forensic</p>
-              </div>
+              <img src="image/linux-training.jpg" alt="" />
             </div>
-          </li>
-          <li class="isotope-item" data-categories="design illustration">
-            <div class="item-wrapp">
-              <div class="portfolio-item">
-                <img src="images/intrusion-detection.jpg" alt="" />
-              </div>
-              <div class="portfolio-item-title">
-                <p>Intrusion Detection</p>
-              </div>
+            <div class="portfolio-item-title">
+              <a href="about.html" title="Why Cyber Security Africa"
+                >Linux Training</a
+              >
+              <p>Security / Services</p>
             </div>
-          </li>
-          <li
-            class="isotope-item"
-            data-categories="design development illustration"
-          >
-            <div class="item-wrapp">
-              <div class="portfolio-item">
-                <img src="images/pci.jpg" alt="" />
-              </div>
-              <div class="portfolio-item-title">
-                <p>PCI DSS Compliance</p>
-              </div>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="item-wrapp">
+            <div class="portfolio-item">
+              <a href="services.html" class="item-permalink"
+                ><i class="fas fa-link"></i></a>
+
+              <img src="image/ethical-training.jpg" alt="" />
             </div>
-          </li>
-        </ul>
-      </div>
+            <div class="portfolio-item-title">
+              <a href="services.html" title="Our Services">Ethical Training</a>
+              <p>Security / Services</p>
+            </div>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="item-wrapp">
+            <div class="portfolio-item">
+              <a href="products.html" class="item-permalink"
+                ><i class="fas fa-link"></i></a>
+
+              <img src="image/advanced-hacking.jpg" alt="" />
+            </div>
+            <div class="portfolio-item-title">
+              <a href="products.html" title="Our Services">Advanced Hacking</a>
+              <p>Security / Services</p>
+            </div>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="item-wrapp">
+            <div class="portfolio-item">
+              <a href="events.html" class="item-permalink"
+                ><i class="fas fa-link"></i></a>
+
+              <img src="image/computer-forensic.jpg" alt="" />
+            </div>
+            <div class="portfolio-item-title">
+              <a href="events.html" title="Upcoming Events">Computer Forensic</a>
+              <p>Security / Services</p>
+            </div>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="item-wrapp">
+            <div class="portfolio-item">
+              <a href="events.html" class="item-permalink"
+                ><i class="fas fa-link"></i></a>
+
+              <img src="image/intrusion-detection.jpg" alt="" />
+            </div>
+            <div class="portfolio-item-title">
+              <a href="events.html" title="Upcoming Events">Intrusion Detection</a>
+              <p>Security / Services</p>
+            </div>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="item-wrapp">
+            <div class="portfolio-item">
+              <a href="events.html" class="item-permalink"
+                ><i class="fas fa-link"></i></a>
+
+              <img src="image/pci.jpg" alt="" />
+            </div>
+            <div class="portfolio-item-title">
+              <a href="events.html" title="Upcoming Events">PCI DSS Compliance</a>
+              <p>Security / Services</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="home-contact">
         <h4>
@@ -154,5 +168,6 @@
     <!-- <footer>
       <p>Copyright © 2024 AfriCyberCore. All Rights Reserved.</p>
     </footer> -->
+    <script src="script.js"></script>
   </body>
 </html>
