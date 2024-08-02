@@ -289,3 +289,117 @@ nav ul li a{
   background: #89929d;
 }
 /* Home-Contact start */
+/* About page */
+#breadcrumb {
+  background: #f6f7fb;
+  padding: 5px 0px 2px 0px;
+  margin-bottom: 40px;
+}
+
+.container1 {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  width: 80%;
+  
+}
+
+.one-half {
+  flex: 1; 
+  margin-left: 100px;
+}
+
+
+#breadcrumbs ul {
+  display: flex; 
+  gap: 0px; 
+  background: none; 
+  border: none; 
+  
+}
+
+#breadcrumbs ul li {
+  margin: 0 5px; 
+  color: gray; 
+  font-size: 0.875rem; 
+  background: none; 
+  border: none; /
+}
+
+#breadcrumbs ul li a {
+  text-decoration: none; 
+  color: gray; 
+  font-size: 0.875rem; 
+}
+
+
+#breadcrumbs ul li a:hover {
+  text-decoration: underline; 
+}
+
+/* Style "About Us" heading */
+.one-half h4 {
+  color: #656d78;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container2 {
+  display: flex;
+  gap: 40px; 
+  margin-top: 60px; 
+  font-size: small;
+ line-height: 1.25rem;
+ margin-bottom: 50px;
+}
+
+.left-section
+{
+  flex: 1;
+  margin-left: 100px;
+ 
+}
+
+.right-section {
+  flex: 1;
+  margin-right:100px; 
+}
+
+.skills-section {
+  margin-top: 40px; 
+}
+
+.skill-list > li {
+  margin-bottom: 10px; 
+}
+
+.simple-list, .bar_graph {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.values-list {
+  list-style-type: none; 
+  padding: 0;
+  margin-left: -20px;
+}
+
+.values-list > li {
+  margin-bottom: 10px; 
+}
+
+.values-list, .approach-list li ul {
+  list-style-type: none; 
+  padding-left: 20px; 
+}
+
+.values-list ul li {
+  margin-bottom: 10px; 
+}
+
+.approach-list, .skill-list {
+  list-style-type: none; 
+  padding: 0;
+  margin-bottom: 10px;
+}
