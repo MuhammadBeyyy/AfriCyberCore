@@ -251,6 +251,7 @@ nav ul li a {
 }
 .feature-block p {
   color: #000000;
+  font-size: 14px;
 }
 .feature-block-title {
   display: flex;
@@ -534,6 +535,35 @@ nav ul li a {
 
 /* Training */
 /* Coming Soon Container */
+
+/* Style for the "Coming Soon" overlay */
+.coming-soon-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    display: none; /* Initially hidden */
+}
+
+.coming-soon-content {
+    text-align: center;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.coming-soon-content h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
 .training-intro {
   display: flex;
   align-items: center;
@@ -545,20 +575,13 @@ nav ul li a {
 
 .training-intro h2{
   font-size: 24px;
-  border: 1px solid darkblue; 
+ 
   border-radius: 8px; 
   padding: 20px 50px;
 }
 
 /* Portfolio Container */
-.trainings {
-  padding: 20px 100px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center; 
-  margin-bottom: 50px;
-}
+
 
 /* Portfolio Items */
 .training-cards {
@@ -567,7 +590,7 @@ nav ul li a {
   gap: 2rem;
   justify-content: center;
   padding: 50px 100px;
-  background-color: #f6f7fb;
+
 }
 
 .training-card {
@@ -651,6 +674,153 @@ nav ul li a {
 }
 
 
+/* Service Items */
+.service-container{
+  width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.service-category{
+  margin: 25px 25px;
+}
+
+.service-category i{
+  color: darkblue; 
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    flex: 1 1 calc(50% - 20px); 
+    max-width: calc(50% - 20px);
+    background: #fff;
+    padding: 20px;
+    border: 1.5px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.service-item i {
+    font-size: 2rem;
+    color: darkblue; 
+    margin-bottom: 30px;
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact */
+
+.container-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 20px;
+    justify-content: center;
+    margin-left: 75px;
+    margin-bottom: 40px;
+}
+
+.contact-and-form {
+    display: flex;
+    width: 100%;
+    
+}
+
+.form-section {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+}
+
+.form-field i {
+    margin-right: 5px;
+    margin-left: 5px; 
+    color:#AAB2BD;
+}
+
+.form-field input {
+   border: none;
+}
+
+input.text,
+input.email,
+input.url,
+textarea {
+    
+    border: none;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.form-footer {
+    margin-top: 20px;
+}
+
+.g-recaptcha {
+    margin-bottom: 10px; 
+}
+
+.submit-form {
+    background-color:#AAB2BD;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.widget-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.simple-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.simple-list li {
+    margin-bottom: 10px;
+}
+
+.simple-list a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.simple-list a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Footer */
 
 footer{
   padding: 50px 100px;
@@ -702,7 +872,7 @@ footer a{
   }
 }
 
-
+/* Copyrights */
 .copyrights{
   padding: 20px 100px;
   background: #292f38;
