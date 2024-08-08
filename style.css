@@ -76,6 +76,11 @@ a {
   .header-contact .left-side{
     justify-content: center;
   }
+
+  .left-side span{
+    text-align: center;
+  }
+
 }
 /* Header styling ends here*/
 
@@ -133,6 +138,10 @@ nav ul li a {
 @media(max-width: 920px){
   nav{
     padding: 20px 20px;
+  }
+
+  nav ul li a{
+    padding: 5px;
   }
 }
 
@@ -643,9 +652,9 @@ nav ul li a {
 /* Service Items */
 .service-container{
   width: 70%;
-    margin: auto;
-    overflow: hidden;
-    margin-bottom: 30px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .service-category{
@@ -664,8 +673,8 @@ nav ul li a {
 }
 
 .service-item {
-    flex: 1 1 calc(50% - 20px); 
-    max-width: calc(50% - 20px);
+    /* flex: 1 1 calc(50% - 20px);  */
+    flex-basis: 450px;
     background: #fff;
     padding: 20px;
     border: 1.5px solid #ddd;
@@ -690,14 +699,28 @@ nav ul li a {
     color: #666;
 }
 
+
+
+@media(max-width: 920px){
+ .service-container{
+  width: 100%;
+ }
+
+ .service-category h2{
+  font-size: 1.1rem;
+  font-weight: bolder;
+ }
+}
+
+
 /* Contact */
 
 .container-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    justify-content: center;
-    margin-left: 80px;
+    padding: 20px 100px;
+    /* justify-content: center; */
+    /* margin-left: 80px; */
     margin-bottom: 40px;
 }
 
@@ -705,6 +728,7 @@ nav ul li a {
     display: flex;
     width: 100%;
     gap: 50px;
+    flex-wrap: wrap;
     
 }
 
@@ -783,6 +807,12 @@ textarea {
 .simple-list a:hover {
     text-decoration: underline;
 }
+
+@media(max-width: 920px){
+  .container-container{
+    padding: 20px 20px;
+  }
+ }
 
 
 
