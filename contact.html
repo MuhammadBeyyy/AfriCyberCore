@@ -13,42 +13,186 @@
   <body>
     <hr class="top-line" />
     <main class="container">
-    <header>
-      <section class="header-contact">
-        <div class="left-side">
+      <header>
+        <section class="header-contact">
+          <div class="left-side">
+            <!-- Update the links -->
+            <a href="#"
+              ><i class="fas fa-home"></i>Africa Headquarter: 5 Adedoja close,
+              Command, Ipaja, Lagos, Nigeria.</a
+            >
+            <a href="mailto:info@cybersecurityafrica.com"
+              ><i class="fas fa-envelope"></i>hello@africacybercore.com</a
+            >
+          </div>
+          <div class="right-side">
+            <!-- Update the links -->
+            <a href="https://x.com/AfriCyberCore" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=61563360429715" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/africybercore/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            
+            <!-- <a href=""><i class="fab fa-google-plus-g"></i></a> -->
+            <!-- <a href=""><i class="fab fa-skype"></i></a> -->
+          </div>
+        </section>
+      </header>
+      <nav>
+        <img src="./image/logo.jpg" alt="logo" class="logo" />
+        <ul>
           <!-- Update the links -->
-          <a href="#"
-            ><i class="fas fa-home"></i>Africa Headquarter: Lagos,
-            Nigeria</a
-          >
-          <a href="#"
-            ><i class="fas fa-envelope"></i>@cybersecurityafrica.com</a
-          >
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/services.html">Our Services</a></li>
+          <li><a href="/training.html">Training</a></li>
+          <li><a href="/events.html">Events</a></li>
+          <li><a href="/contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="menu"><i class="fas fa-bars"></i></button>
+      </nav>
+
+      <div class="breadcrumb">
+        <!-- breadcrumb starts-->
+        <h4>Contact</h4>
+        <!--breadcrumb nav starts-->
+        <ul>
+          <li>You are here:</li>
+          <li><a href="index.html" class="breadcrumb-home">Home</a></li>
+          <li>></li>
+          <li>Contact</li>
+        </ul>
+        <!--breadcrumb nav ends -->
+      </div>
+
+      <!-- Contact starts here -->
+      <div class="container-container">
+        <div class="contact-and-form">
+          <section class="form-section">
+            <form
+              action="send_form_email.php"
+              id="contact-form"
+              class="simple-form"
+              method="post"
+            >
+              <fieldset class="form-field">
+                <i class="fas fa-user"></i>
+                <input
+                  type="text"
+                  name="first_name"
+                  placeholder="Your Name"
+                  class="text requiredField"
+                />
+              </fieldset>
+              <fieldset class="form-field">
+                <i class="fas fa-envelope"></i>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Your Email"
+                  class="requiredField email"
+                />
+              </fieldset>
+              <fieldset class="form-field">
+                <i class="fas fa-globe"></i>
+                <input
+                  type="text"
+                  name="website"
+                  placeholder="Your Organization"
+                  class="url"
+                />
+              </fieldset>
+              <fieldset class="form-field">
+                <textarea
+                  name="comments"
+                  placeholder="Your Message"
+                  class="text requiredField"
+                ></textarea>
+              </fieldset>
+              <div class="form-footer">
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LcQ9xEUAAAAACq0gZmJJD_BMzXFJIdIrZMbLQRJ"
+                ></div>
+                <input class="submit-form" type="submit" value="Send message" />
+              </div>
+            </form>
+          </section>
+          <section class="contact-info">
+            <div class="widget">
+              <h4 class="widget-title">Contact Information</h4>
+              <ul class="simple-list">
+                <li>
+                  Africa Headquarter: 5 Adedoja close, Command, Ipaja, Lagos.
+                </li>
+                <li>Tel: + 234 816 720 5221</li>
+                <li>
+                  Email:
+                  <a href="mailto:hello@africacybercore.com"
+                    >hello@africacybercore.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
-        <div class="right-side">
-          <!-- Update the links -->
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-facebook-f"></i></a>
-          <a href=""><i class="fab fa-linkedin-in"></i></a>
-          <!-- <a href=""><i class="fab fa-google-plus-g"></i></a> -->
-          <!-- <a href=""><i class="fab fa-skype"></i></a> -->
-        </div>
+      </div>
+    </main>
+    <footer id="footer" class="style-01">
+      <!--footer starts -->
+      <section class="one-third">
+        <h4>Company Description</h4>
+
+        <p>
+          AfriCyberCore is a premier cybersecurity consultation firm dedicated
+          to protecting and empowering tech startups across Africa. Our mission
+          is to provide top-tier cybersecurity solutions and proactive security
+          measures, ensuring that businesses can thrive in an increasingly
+          digital world. At AfriCyberCore, we understand the unique challenges
+          faced by startups and offer specialized services to address their
+          specific needs.
+        </p>
       </section>
-    </header>
-    <nav>
-      <img src="./image/logo.jpg" alt="logo" class="logo" />
-      <ul>
-        <!-- Update the links -->
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About Us</a></li>
-        <li><a href="/services.html">Our Services</a></li>
-        <li><a href="/training.html">Training</a></li>
-        <li><a href="/events.html">Events</a></li>
-        <li><a href="/contact.html" class="active">Contact</a></li>
+      <section class="one-third">
+        <h4>Our Services</h4>
+        <ul>
+          <!-- latest posts widget starts-->
+          <li><a href="services.html">Consultation Services </a></li>
+          <li>
+            <a href="services.html">Managed Security Services</a>
+          </li>
+          <li><a href="services.html">Awareness and Training Programs</a></li>
+          <li>
+            <a href="services.html">Security Solutions Implementation</a>
+          </li>
+          <li>
+            <a href="services.html">Specialized Services</a>
+          </li>
+        </ul>
+        <!-- lastest posts widget ends-->
+      </section>
+      <section class="one-third">
+        <h4>Contact Details</h4>
+        <p>Africa Headquarter: 5 Adedoja close, Command, Ipaja, Lagos.</p>
+        <p>Tel: + 234 816 720 5221</p>
+        <p>
+          Email:
+          <a href="mailto:hello@africacybercore.com"
+            >hello@africacybercore.com</a
+          >
+        </p>
+      </section>
+    </footer>
+    <section class="copyrights">
+      <p>Copyright © 2024 AfriCyberCore. All Rights Reserved.</p>
+
+      <ul class="copyright_links">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="about.html" title="About">About</a></li>
+        <li><a href="services.html" title="Services">Services</a></li>
+        <li><a href="training.html" title="Training">Training</a></li>
+        <li><a href="events.html" title="Events">Events</a></li>
+        <li><a href="contact.html" title="Contact Us">Contact</a></li>
       </ul>
-      <button class="menu"><i class="fas fa-bars"></i></button>
-    </nav>
-  </main>
-  <script src="script.js"></script>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
