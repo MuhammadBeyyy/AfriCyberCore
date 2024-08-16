@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Century Gothic", Arial, Verdana;
+  line-height: 22.5px;
 }
 
 a {
@@ -481,13 +482,10 @@ nav ul li a {
 
 .container2 {
   padding: 20px 100px;
-  display: flex;
   /* flex-wrap: wrap; */
-  gap: 40px; 
   margin-top: 60px; 
-  font-size: small;
-  line-height: 1.25rem;
   margin-bottom: 50px;
+  line-height: 25px;
 }
 .left-section, .right-section{
   flex: 1;
@@ -495,10 +493,6 @@ nav ul li a {
 
 .skills-section {
   margin-top: 40px; 
-}
-
-.skill-list > li {
-  margin-bottom: 10px; 
 }
 
 .simple-list, .bar_graph {
@@ -511,10 +505,6 @@ nav ul li a {
   list-style-type: none; 
   padding: 0;
   margin-left: -20px;
-}
-
-.values-list > li {
-  margin-bottom: 10px; 
 }
 
 .values-list, .approach-list li ul {
@@ -816,7 +806,6 @@ textarea {
 
 
 /* Footer */
-
 footer{
   padding: 50px 100px;
   display: flex;
@@ -830,16 +819,16 @@ footer{
 footer h4{
   font-size: 13px;
   color: #FFF;
-  font-family: "Roboto", Arial, Verdana;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 footer p{
-  color: #CCCCCC;
+  color: #FFF;
   margin-bottom: 10px;
 }
+
 
 .one-third{
   flex: 1;
@@ -858,7 +847,7 @@ footer ul li{
 }
 
 footer a{
-  color: #CCCCCC;
+  color: #FFF;
 }
 
 @media(max-width: 920px){
@@ -875,7 +864,7 @@ footer a{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  color: #CCCCCC;
+  color: #FFF;
 }
 
 .copyrights ul{
@@ -887,7 +876,7 @@ footer a{
 }
 
 .copyrights a{
-  color: #CCCCCC;
+  color: #FFF;
 }
 
 @media(max-width: 920px){
