@@ -674,7 +674,7 @@ nav ul li a {
 
 .service-item {
     /* flex: 1 1 calc(50% - 20px);  */
-    flex-basis: 450px;
+    flex-basis: calc(50% - 40px);
     background: #fff;
     padding: 20px;
     border: 1.5px solid #ddd;
@@ -695,8 +695,7 @@ nav ul li a {
 }
 
 .service-item p {
-    font-size: 1rem;
-    color: #666;
+    font-size: 1.05rem;
 }
 
 
