@@ -15,14 +15,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
   
   fetch('https://newsapi.org/v2/everything?q=cybersecurity&apiKey=0c9ca387af6042339735a2d73327a60f')
-  .then(response => response.json())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
   .then(data => {
     
     const slidesContainer = document.querySelector('.slides');
 
     // Filter articles: exclude those without an author or an image
     const filteredArticles = data.articles.filter(article => article.author && article.urlToImage);
-    // console.log(filteredArticles)
+    console.log(filteredArticles)
 
     // Map the filtered articles to generate the slides
     slidesContainer.innerHTML = filteredArticles.slice(0, 10).map(article => `
