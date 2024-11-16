@@ -14,7 +14,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   
-  fetch('https://newsapi.org/v2/everything?q=cybersecurity&apiKey=0c9ca387af6042339735a2d73327a60f')
+  fetch('https://newsapi.org/v2/everything?q=cybersecurity&apiKey=0c9ca387af6042339735a2d73327a60f', , {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+  }
+})
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
